@@ -13,6 +13,10 @@ if not exist "%OUTDIR%" (
     mkdir "%OUTDIR%"
 )
 
+echo Limpiando carpeta %OUTDIR%...
+rmdir /s /q "%OUTDIR%"
+mkdir "%OUTDIR%"
+
 for %%f in ("%INDIR%\*.zip") do (
     echo Descomprimiendo %%~nxf en %OUTDIR%...
     tar -xf "%%f" -C "%OUTDIR%"
