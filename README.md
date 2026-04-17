@@ -1,0 +1,18 @@
+# Factorio world sharer
+
+Este repo es un experimento, de como se podria compartir el save de factorio actualizando solo lo necesario, evitando cargas elevadas por que se usaria github para trackear el cambio de cada archivo individual, Todavia no lo puse a prueba pero pronto tendremos resultades de este experimento
+
+## Bajando el mundo
+
+En este caso no tenemos complejos comandos, simplemente 2 ejecutables que probablemente hagan que tu antivitus salte, podes leer todo el codigo, la parte que lo hace saltar es eliminar la carpeta para volverla a crear
+
+Al descargar el repo solo hay que ejecutar `Windows Comprimir.bat`, copiar el archivo de la carpeta `/entrada` y pegarlo dentro de tus saves de factorio.
+
+## Subiendo el mundo
+
+Bueno, como subirlo entonces?
+Facil, Cazas tu carpeta de save y pum, esta comprimido, descargo el repo tranqui fium fium fium lo tengo en local, leo el readme, me dice que tengo que crear una carpeta llamada  `/entrada`
+de que? si yo ya me descargue el repo, le pongo el archivo el programa pum, se crashea, y ahi empieza que la version que pipipan que papa la version? esta bien.
+
+Entonces agarro, pongo mi archivo comprimido en `/entrada`, pum pum pum ejecuto `Windows Descomprimir.bat` tiro un `git add .`; `git commit`; meto un  `git push` paso el link y me las tomo
+ 
